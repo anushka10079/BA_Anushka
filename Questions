@@ -1,0 +1,12 @@
+Questions:
+1.	Visualize the mean close price of each ticker over months (from 2019 to latest date) in a single line plot.
+2.	Forthe “MSN" Ticker, find out the year where the ratio of highest average monthly return to lowest average monthly return is minimum.
+3.	For 'PNJ' ticker, 
+a.	Create a Performance column containing three distinct values based on % return (return<0: NEGATIVE, return >0: POSITIVE, return = 0: NEUTRAL)
+b.	Calculate total count of Positive, Negative and Neutral performance on 1st of March 2018 between 10:50:00 to 13:05:00 and calculate % of each performance.
+4.	Perform dimensionality reduction using PCA on 'VIC' ticker data using 'Open', 'Close', 'High', 'Low' columns (Reduce the dimensions from 4 to 2) and visualize the PCA results with a scatter plot.
+5.	Compare first 6-month average High of all Tickers in a single line plot. Figure out the stock with highest average High in its 4th month and 3rd lowest average High in its 6th month.
+6.	Calculate the ratio of rolling mean to rolling standard deviation of 'Open', 'High', 'Low', 'Close' columns of each stock from monthly average data of 2019(take window = 12). Drop the rows with all null values. In a new column, calculate covariance between (Open, High) and (Low, Close) columns without using any in-built functions.
+7.	Using the monthly average data of 'PNJ' Ticker, calculate the ratio of Volume to its 3rd lagged autocorrelation of Volume. Also find out the Volume with 10th smallest ratio.
+8.	Take any ticker of your choice and consider only the data of Wednesday and the Volume column. Calculate the ratio of difference between Volume and 2 rows before Volume to sum of Volume and 2 rows before Volume. Calculate the average of this ratio rounded to 6 decimal places.
+
